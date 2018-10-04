@@ -1,4 +1,5 @@
 import tensorflow as tf
+#Print out which devices are detected by tensorflow
 from tensorflow.python.client import device_lib
 print (device_lib.list_local_devices())
 # Creates a graph.
